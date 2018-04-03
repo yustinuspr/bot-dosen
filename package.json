@@ -1,0 +1,15 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "description": "Bot Pertama",
+  "main": "bot.js",
+  "scripts": {
+    "start": "bot.js"
+  },
+  "author": "Yustinus Radityo Pradana",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "jQuery": "^1.7.4"
+  }
+}
