@@ -43,6 +43,12 @@ bot.on('message',function(message){
 		message.channel.send("<?php echo $title;?>");
 	}
 	if(message.content.substring(0,1) == "!"){
+		if(message.content.substring(1,4)=="UTS"){
+			if(message.content.substring(5)=="Data Mining" || 
+				message.content.substring(5)=="DM"){
+				message.channel.send("EZ");
+			}
+		}
 		if(message.content.substring(1,6)=="siswa"){
 			if(message.content.substring(7)=="muksin"){
 				message.channel.send("goblok");
